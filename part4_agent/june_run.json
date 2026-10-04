@@ -1,0 +1,43 @@
+{
+  "run_month": "June",
+  "validation_status": "valid",
+  "validation_errors": [],
+  "flagged_categories": [
+    {
+      "category": "Ethnic Wear",
+      "mom_pct": -58.74,
+      "previous_revenue": 185107.61,
+      "current_revenue": 76371.53,
+      "drafted": true,
+      "message": "Context: This update looks at Ethnic Wear revenue in June vs. May. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Ethnic Wear revenue fell from INR 185,107.61 in May to INR 76,371.53 in June, a change of -58.74%. [Fact] Orders went from 104 to 52 over the same period.\nImplication: [Hypothesis] The fall may be the May demand driver ending, rather than a new weakness, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether the May Ethnic Wear promotion or seasonal demand ended, and whether any June stock shortage held back Ethnic Wear orders. [Action] Compare June's Ethnic Wear orders with May's region by region: a drop concentrated in one region points to a local problem to fix, while an even drop points to a change in demand."
+    },
+    {
+      "category": "Home & Kitchen",
+      "mom_pct": 42.59,
+      "previous_revenue": 91152.57,
+      "current_revenue": 129971.22,
+      "drafted": true,
+      "message": "Context: This update looks at Home & Kitchen revenue in June vs. May. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Home & Kitchen revenue rose from INR 91,152.57 in May to INR 129,971.22 in June, a change of 42.59%. [Fact] Orders went from 44 to 73 over the same period.\nImplication: [Hypothesis] The rise may reflect a June-specific demand driver, such as a promotion or seasonal push, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether any Home & Kitchen promotion or seasonal stocking ran in June; if none did, find another explanation before June is used as a planning baseline. [Action] Split June's INR 129,971.22 by order status (delivered, returned, cancelled, pending); if delivered revenue is much lower, treat the 42.59% change as overstated."
+    },
+    {
+      "category": "Kids Wear",
+      "mom_pct": 23.9,
+      "previous_revenue": 45793.78,
+      "current_revenue": 56737.78,
+      "drafted": true,
+      "message": "Context: This update looks at Kids Wear revenue in June vs. May. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Kids Wear revenue rose from INR 45,793.78 in May to INR 56,737.78 in June, a change of 23.9%. [Fact] Orders went from 47 to 57 over the same period.\nImplication: [Hypothesis] The rise may reflect a June-specific demand driver, such as a promotion or seasonal push, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether any Kids Wear promotion or seasonal stocking ran in June; if none did, find another explanation before June is used as a planning baseline. [Action] Split June's INR 56,737.78 by order status (delivered, returned, cancelled, pending); if delivered revenue is much lower, treat the 23.9% change as overstated."
+    },
+    {
+      "category": "Western Wear",
+      "mom_pct": 11.97,
+      "previous_revenue": 86998.18,
+      "current_revenue": 97415.64,
+      "drafted": false
+    }
+  ],
+  "suppressed_categories": [
+    "Western Wear"
+  ],
+  "escalated_categories": [],
+  "action_taken": "drafted_and_held_for_approval"
+}

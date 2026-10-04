@@ -1,0 +1,51 @@
+{
+  "run_month": "May",
+  "validation_status": "valid",
+  "validation_errors": [],
+  "flagged_categories": [
+    {
+      "category": "Ethnic Wear",
+      "mom_pct": 77.1,
+      "previous_revenue": 104520.77,
+      "current_revenue": 185107.61,
+      "drafted": true,
+      "message": "Context: This update looks at Ethnic Wear revenue in May vs. April. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Ethnic Wear revenue rose from INR 104,520.77 in April to INR 185,107.61 in May, a change of 77.1%. [Fact] Orders went from 64 to 104 over the same period.\nImplication: [Hypothesis] The rise may reflect a May-specific demand driver, such as a promotion or seasonal push, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether any Ethnic Wear promotion or seasonal stocking ran in May; if none did, find another explanation before May is used as a planning baseline. [Action] Split May's INR 185,107.61 by order status (delivered, returned, cancelled, pending); if delivered revenue is much lower, treat the 77.1% change as overstated."
+    },
+    {
+      "category": "Western Wear",
+      "mom_pct": -23.6,
+      "previous_revenue": 113866.15,
+      "current_revenue": 86998.18,
+      "drafted": true,
+      "message": "Context: This update looks at Western Wear revenue in May vs. April. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Western Wear revenue fell from INR 113,866.15 in April to INR 86,998.18 in May, a change of -23.6%. [Fact] Orders went from 79 to 64 over the same period.\nImplication: [Hypothesis] The fall may be the April demand driver ending, rather than a new weakness, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether the April Western Wear promotion or seasonal demand ended, and whether any May stock shortage held back Western Wear orders. [Action] Compare May's Western Wear orders with April's region by region: a drop concentrated in one region points to a local problem to fix, while an even drop points to a change in demand."
+    },
+    {
+      "category": "Kids Wear",
+      "mom_pct": -23.48,
+      "previous_revenue": 59847.27,
+      "current_revenue": 45793.78,
+      "drafted": true,
+      "message": "Context: This update looks at Kids Wear revenue in May vs. April. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Kids Wear revenue fell from INR 59,847.27 in April to INR 45,793.78 in May, a change of -23.48%. [Fact] Orders went from 55 to 47 over the same period.\nImplication: [Hypothesis] The fall may be the April demand driver ending, rather than a new weakness, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether the April Kids Wear promotion or seasonal demand ended, and whether any May stock shortage held back Kids Wear orders. [Action] Compare May's Kids Wear orders with April's region by region: a drop concentrated in one region points to a local problem to fix, while an even drop points to a change in demand."
+    },
+    {
+      "category": "Beauty & Personal Care",
+      "mom_pct": -12.75,
+      "previous_revenue": 40737.01,
+      "current_revenue": 35542.11,
+      "drafted": false
+    },
+    {
+      "category": "Home & Kitchen",
+      "mom_pct": -9.25,
+      "previous_revenue": 100446.23,
+      "current_revenue": 91152.57,
+      "drafted": false
+    }
+  ],
+  "suppressed_categories": [
+    "Beauty & Personal Care",
+    "Home & Kitchen"
+  ],
+  "escalated_categories": [],
+  "action_taken": "drafted_and_held_for_approval"
+}

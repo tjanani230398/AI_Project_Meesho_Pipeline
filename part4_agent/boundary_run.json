@@ -1,0 +1,20 @@
+{
+  "run_month": "August",
+  "validation_status": "valid",
+  "validation_errors": [],
+  "flagged_categories": [
+    {
+      "category": "Synthetic Flagged",
+      "mom_pct": 20.0,
+      "previous_revenue": 50000.0,
+      "current_revenue": 60000.0,
+      "drafted": true,
+      "message": "Context: This update looks at Synthetic Flagged revenue in August vs. July. Any month-on-month change above 8.0% in either direction is reviewed.\nInsight: [Fact] Synthetic Flagged revenue rose from INR 50,000.00 in July to INR 60,000.00 in August, a change of 20.0%. [Fact] Orders went from 25 to 30 over the same period.\nImplication: [Hypothesis] The rise may reflect a August-specific demand driver, such as a promotion or seasonal push, because orders and revenue moved together; the figures alone do not show why. [Action] Ask the regional leads whether any Synthetic Flagged promotion or seasonal stocking ran in August; if none did, find another explanation before August is used as a planning baseline. [Action] Split August's INR 60,000.00 by order status (delivered, returned, cancelled, pending); if delivered revenue is much lower, treat the 20.0% change as overstated."
+    }
+  ],
+  "suppressed_categories": [],
+  "escalated_categories": [
+    "Synthetic Boundary"
+  ],
+  "action_taken": "drafted_and_held_for_approval"
+}

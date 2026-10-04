@@ -1,0 +1,13 @@
+{
+  "run_month": "July",
+  "validation_status": "invalid",
+  "validation_errors": [
+    "line 3: negative revenue (-4200.00) for category=Western Wear",
+    "line 4: missing category (month=July)",
+    "line 6: missing revenue (category=Home & Kitchen)"
+  ],
+  "flagged_categories": [],
+  "suppressed_categories": [],
+  "escalated_categories": [],
+  "action_taken": "hard_stop"
+}
